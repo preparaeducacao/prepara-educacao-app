@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Prepara Educação",
+    "slug": "prepara-educacao-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.preparaeducacao.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0c53a8e1-e920-4c88-9e87-d9692b8c7ce1"
+      }
+    },
+    "owner": "prepara-educacao",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/0c53a8e1-e920-4c88-9e87-d9692b8c7ce1"
+    }
+  }
+}
