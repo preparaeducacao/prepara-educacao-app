@@ -6,14 +6,32 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "channel": "development"
+      "channel": "development",
+      "ios": {
+        "image": "macos-big-sur-11.6-xcode-13.1"
+      },
+      "android": {
+        "image": "ubuntu-20.04-android-30"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "channel": "preview",
+      "ios": {
+        "image": "macos-big-sur-11.6-xcode-13.1"
+      },
+      "android": {
+        "image": "ubuntu-20.04-android-30"
+      }
     },
     "production": {
-      "channel": "production"
+      "channel": "production",
+      "ios": {
+        "image": "macos-big-sur-11.6-xcode-13.1"
+      },
+      "android": {
+        "image": "ubuntu-20.04-android-30"
+      }
     }
   },
   "submit": {
