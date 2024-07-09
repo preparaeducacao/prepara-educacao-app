@@ -8,7 +8,7 @@
       "distribution": "internal",
       "channel": "development",
       "ios": {
-        "image": "macos-ventura-13.6-xcode-15.2"
+        "image": "image": "macos-ventura-13.6-xcode-15.2"
       },
       "android": {
         "image": "ubuntu-20.04-jdk-11-ndk-r21e"
@@ -18,7 +18,7 @@
       "distribution": "internal",
       "channel": "preview",
       "ios": {
-        "image": "macos-big-sur-11.6-xcode-13.1"
+        "image": "image": "macos-ventura-13.6-xcode-15.2"
       },
       "android": {
         "image": "ubuntu-20.04-jdk-11-ndk-r21e"
@@ -27,7 +27,7 @@
     "production": {
       "channel": "production",
       "ios": {
-        "image": "macos-big-sur-11.6-xcode-13.1"
+        "image": "image": "macos-ventura-13.6-xcode-15.2"
       },
       "android": {
         "image": "ubuntu-20.04-jdk-11-ndk-r21e"
