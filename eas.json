@@ -6,32 +6,14 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "channel": "development",
-      "ios": {
-        "image": "macos-ventura-13.6-xcode-15.2"
-      },
-      "android": {
-        "image": "ubuntu-20.04-jdk-11-ndk-r21e"
-      }
+      "channel": "development"
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview",
-      "ios": {
-        "image": "macos-ventura-13.6-xcode-15.2"
-      },
-      "android": {
-        "image": "ubuntu-20.04-jdk-11-ndk-r21e"
-      }
+      "channel": "preview"
     },
     "production": {
-      "channel": "production",
-      "ios": {
-        "image": "macos-ventura-13.6-xcode-15.2"
-      },
-      "android": {
-        "image": "ubuntu-20.04-jdk-11-ndk-r21e"
-      }
+      "channel": "production"
     }
   },
   "submit": {

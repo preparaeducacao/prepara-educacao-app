@@ -6,6 +6,7 @@ import * as Notifications from 'expo-notifications';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Device from 'expo-device';
 
+
 LogBox.ignoreLogs(['new NativeEventEmitter']);
 
 // const HOME_URL = 'http://10.0.0.128/perfil/entrar';

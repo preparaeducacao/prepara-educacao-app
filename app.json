@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Prepara Educação",
-    "slug": "prepara-educacao-2",
+    "slug": "prepara-educacao-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -30,15 +30,16 @@
     "plugins": [
       [
         "expo-notifications",
-        {}
+        {
+        }
       ]
     ],
     "extra": {
       "eas": {
-        "projectId": "e2a23121-569b-4ccc-9ed3-0ef29d72a05f"
+        "projectId": "0c53a8e1-e920-4c88-9e87-d9692b8c7ce1"
       }
     },
-    "owner": "thomaswesley",
+    "owner": "prepara-educacao",
     "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/0c53a8e1-e920-4c88-9e87-d9692b8c7ce1"
