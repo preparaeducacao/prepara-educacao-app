@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Prepara Educação",
-    "slug": "prepara-educacao",
+    "slug": "prepara-educacao-2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -35,7 +35,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "021250e4-8e90-4d7c-8c1b-58be20c9f05d"
+        "projectId": "e2a23121-569b-4ccc-9ed3-0ef29d72a05f"
       }
     },
     "owner": "thomaswesley",
