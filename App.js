@@ -152,23 +152,24 @@ const App = () => {
   }, []);*/
 
   return (
-      <SafeAreaProvider>
-        <SafeAreaView style={styles.flexContainer}>
-          {isLoading && (
-              <View style={styles.loadingContainer}>
-                <ActivityIndicator color="#00b867" size="large" />
-              </View>
-          )}
-          <WebView
-              ref={webViewRef}
-              source={{ uri: HOME_URL }}
-              startInLoadingState={true}
-              scalesPageToFit={false}
-              onMessage={onWebViewMessage}
-              onNavigationStateChange={onNavigationStateChange}
-          />
-        </SafeAreaView>
-      </SafeAreaProvider>
+    <SafeAreaProvider>
+      <SafeAreaView style={styles.flexContainer}>
+        {/*isLoading && (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator color="#00b867" size="large" />
+          </View>
+        )*/}
+        <WebView
+            ref={webViewRef}
+            source={{ uri: HOME_URL }}
+            startInLoadingState={false}
+            scalesPageToFit={false}
+            renderLoading={() => null}  // Não renderiza nada durante o carregamento
+            //onMessage={onWebViewMessage}
+            //onNavigationStateChange={onNavigationStateChange}
+        />
+      </SafeAreaView>
+    </SafeAreaProvider>
   );
 };
 
